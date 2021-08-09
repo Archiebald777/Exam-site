@@ -90,46 +90,52 @@
   letter-spacing: 0.20000000298023224px;
 }
 .lining {
-  border: 3px solid #E4E4E4;
+  border: 3px solid #e4e4e4;
 }
 .distance {
   margin: 20px;
 }
-@media screen and (min-width:600px) {
-
-.desktop-food-picture{
-background-image: url(/assets/images/header-bg-pic.png);
-color:white;
-height: 28rem;
-}
-.food-app {
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-  font-size: 1.25rem;
-  color:white;
-}
-.desktop-header {
-  display: inline-block;
-  width:40rem;
-  text-align: center;
-}
-.desktop-grey-text {
-  color: white;
-}
-.desktop-appstore {
-  background-color: inherit;
-  border-color: white;
-  color:white;
-  margin-left:1rem;
-}
-.desktop-two-phones {
-margin-top: -8.5rem;
-margin-bottom: 3rem;
-}
-.lining {
-  margin-top: -6rem;
-}
-.after-picture {
-  font-size: 2rem;
-}
+@media screen and (min-width: 600px) {
+  .desktop-food-picture {
+    background-image: url(/assets/images/header-bg-pic.png);
+    color: white;
+    height: 28rem;
+  }
+  .playstore {
+    margin-bottom: 0px;
+  }
+  .download-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .food-app {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    color: white;
+  }
+  .desktop-header {
+    display: inline-block;
+    width: 40rem;
+    text-align: center;
+  }
+  .desktop-grey-text {
+    color: white;
+  }
+  .desktop-appstore {
+    background-color: inherit;
+    border-color: white;
+    color: white;
+    margin-left: 1rem;
+  }
+  .desktop-two-phones {
+    margin-top: -8.5rem;
+    margin-bottom: 3rem;
+  }
+  .lining {
+    margin-top: -6rem;
+  }
+  .after-picture {
+    font-size: 2rem;
+  }
 }

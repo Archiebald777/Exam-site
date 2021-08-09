@@ -1,8 +1,7 @@
-
 button {
   text-overflow: ellipsis;
-overflow: hidden;
-white-space: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .central-part {
   text-align: center;
@@ -132,65 +131,63 @@ white-space: nowrap;
   letter-spacing: 0.10000000149011612px;
   margin-bottom: 70px;
 }
-@media screen and (min-width:600px) {
-.footer {
-  flex-direction: row;
-  justify-content: space-around;
-  text-align: center;
-}
-.three-socials, .footer-copyright, .logo-footer {
-width: 32%;
-}
+@media screen and (min-width: 600px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .three-socials,
+  .footer-copyright,
+  .logo-footer {
+    width: 32%;
+  }
   .desktop-hidden {
     display: none;
   }
   .text-bordering {
-    width:30rem;
+    width: 30rem;
     margin-top: -0.5rem;
   }
   .create-desktop {
     justify-content: center;
-display: flex;
-align-content: center;
-flex-direction: row-reverse;
-margin-top: 10rem;
+    display: flex;
+    align-content: center;
+    flex-direction: row-reverse;
+    margin-top: 10rem;
   }
-.explore-desktop {
-  margin-top: 10rem;
-  display:flex;
-  align-content: center;
-justify-content: center;
-}
-.app-download {
-  display: flex;
-  flex-direction: column;
-  
-background-image: url(/assets/images/footer-picture.png);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-}
-.download-text {
-  margin: 0px;
-}
+  .explore-desktop {
+    margin-top: 10rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .app-download {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(/assets/images/footer-picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .download-text {
+    margin: 0px;
+  }
   .light-grey-text {
     color: white;
-    margin-top: -0.10rem
+    margin-top: -0.1rem;
   }
   .buy-buttons {
-    margin-top:3rem;
-  
+    margin-top: 3rem;
   }
   .footer-text {
-    display:none;
+    display: none;
   }
 }
 
-
-
-@media screen and (max-width:580px) {
-  .phone-hidden{
+@media screen and (max-width: 580px) {
+  .phone-hidden {
     display: none;
   }
-
 }
