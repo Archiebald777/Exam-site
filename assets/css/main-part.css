@@ -1,3 +1,9 @@
+
+button {
+  text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+}
 .central-part {
   text-align: center;
   display: flex;
@@ -160,6 +166,9 @@ justify-content: center;
   flex-direction: column;
   
 background-image: url(/assets/images/footer-picture.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 .download-text {
   margin: 0px;
